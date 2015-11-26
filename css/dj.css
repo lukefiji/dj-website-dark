@@ -1,0 +1,177 @@
+/*
+* DJ Website - Dark
+* By Luke Fiji
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Bootstrap Overrides
+- Header
+- Navigation
+- Jumbotron
+- Page conent
+- Embedded Stuff
+- Footer
+*/
+
+
+/* Bootstrap Overrides
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+body {
+  font-family: "Raleway", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+}
+
+
+/* Header
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+header {
+  background-image: url("../img/armnhmr1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+
+
+.logo h1 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 15rem;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: -1rem;
+}
+
+
+/* Navigation
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.navbar, .navbar-default {
+  min-height: 35px;
+  border-bottom: none;
+  float: left;
+  width: 100%;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:visited
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ffffff;
+  font-size: 1.6rem;
+  padding: 1.25rem 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+}
+
+
+@media (min-width: 768px) {
+
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav>li>a,
+  .navbar-default .navbar-nav>li>a:visited {
+    color: #ffffff;
+    padding: 3rem 2rem;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover {
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+  }
+
+  .navbar-default .navbar-nav>.active>a,
+  .navbar-default .navbar-nav>.active>a:focus,
+  .navbar-default .navbar-nav>.active>a:hover {
+    color: #ffffff;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+  }
+
+}
+
+.fa {
+  font-size: 3rem;
+}
+
+.fa-soundcloud {
+
+}
+
+.fa-facebook {
+
+}
+
+.fa-instagram {
+
+}
+
+.fa-twitter {
+
+}
+
+
+/* Jumbotron
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.border {
+  height: 2px;
+  background-color: #222222;
+}
+
+
+/* Page content
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.section {
+  padding-bottom: 10rem;
+}
+
+.section-head {
+  font-family: "Roboto Condensed";
+  font-size: 6rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10rem;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.show-title {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Embedded Stuff
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+iframe.soundcloud {
+  margin-bottom: 3rem;
+}
+
+
+
+/* Footer
+––––––––––––––––––––––––––––––––––––––––––––––––––*/
